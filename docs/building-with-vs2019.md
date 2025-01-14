@@ -128,7 +128,7 @@ minutes. Above script shows you how to build both configurations:
 - `stdlib` - Standard Template Library containers.
 
 You may execute this workflow in a docker container. Please refer to generic
-instructions that detail how to [run build build tools in a docker container](https://docs.microsoft.com/en-us/visualstudio/install/build-tools-container?view=vs-2019).
+instructions that detail how to [run build tools in a docker container](https://docs.microsoft.com/en-us/visualstudio/install/build-tools-container?view=vs-2019).
 
 ## Building in Visual Studio 2019 IDE
 
