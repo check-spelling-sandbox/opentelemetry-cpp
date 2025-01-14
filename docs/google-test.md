@@ -264,8 +264,7 @@ ctest -R metrics.Meter.CollectSyncInstruments
 ```
 
 The second cmake option creates test coverage reports; these are able to be
-viewed using a tool like lcov (instructions to download
-[here](http://ltp.sourceforge.net/coverage/lcov.php)), and running the command
+viewed using a tool like [lcov](https://github.com/linux-test-project/lcov), and running the command
 
 ```console
 lcov --directory $PWD --capture --output-file coverage.info
