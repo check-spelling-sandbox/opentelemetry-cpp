@@ -7,8 +7,7 @@ for C++ programming developed by Google. It is currently being used for unit
 testing in the [OpenTelemetry
 C++](https://github.com/open-telemetry/opentelemetry-cpp) repo, along with tools
 like [codecov.io](http://codecov.io/) to thoroughly test the code in the
-repository. A primer for using Google Test can be found
-[here](https://github.com/google/googletest/blob/master/googletest/docs/primer.md).
+repository. See the [primer for using Google Test](https://github.com/google/googletest/blob/master/googletest/docs/primer.md).
 
 ## Features
 
