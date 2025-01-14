@@ -151,7 +151,7 @@ private:
     // See https://www.w3.org/TR/trace-context/#versioning-of-traceparent
     if (version_binary > kDefaultAssumedVersion)
     {
-      // higher than default version detected
+      // greater than default version detected
       if (trace_parent.size() < kTraceParentSize)
       {
         return SpanContext::GetInvalid();
