@@ -173,9 +173,8 @@ the root of the directory and executing the command:
 
 ### CMake
 
-CMake can be installed following instructions from
-[here](https://cmake.org/download/). You will also need to install Google Test,
-along with libbenchmark.
+You can [download CMake](https://cmake.org/download/) (and install it).
+You will also need to install Google Test, along with libbenchmark.
 
 Download a zip of the Google Test source code
 [here](https://github.com/google/googletest/releases/tag/release-1.10.0). Then,
