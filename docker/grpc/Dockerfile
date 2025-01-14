@@ -7,7 +7,7 @@ FROM ${BASE_IMAGE} AS grpc
 ARG CORES=${nproc}
 ARG GRPC_GIT_TAG=v1.45.2
 
-RUN mkdir mkdir -p /opt/third_party/grpc
+RUN mkdir -p /opt/third_party/grpc
 
 WORKDIR /opt/third_party/grpc
 
