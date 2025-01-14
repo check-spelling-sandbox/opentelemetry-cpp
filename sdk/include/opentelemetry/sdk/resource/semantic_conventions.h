@@ -31,9 +31,9 @@ namespace SemanticConventions
 static constexpr const char *kSchemaUrl = "https://opentelemetry.io/schemas/1.27.0";
 
 /**
- * Uniquely identifies the framework API revision offered by a version ({@code os.version}) of the
- * android operating system. More information can be found <a
- * href="https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels">here</a>.
+ * Uniquely identifies the <a
+ * href="https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels">framework
+ * API revision</a> offered by a version ({@code os.version}) of the android operating system.
  */
 static constexpr const char *kAndroidOsApiLevel = "android.os.api_level";
 
