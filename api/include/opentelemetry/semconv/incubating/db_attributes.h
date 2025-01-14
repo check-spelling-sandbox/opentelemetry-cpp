@@ -570,7 +570,7 @@ static constexpr const char *kExecute = "execute";
 /**
  * none
  */
-static constexpr const char *kExecuteJavascript = "execute_javascript";
+static constexpr const char *kExecuteJavaScript = "execute_javascript";
 
 /**
  * none

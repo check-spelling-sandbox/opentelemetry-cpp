@@ -4266,7 +4266,7 @@ static constexpr const char *kBatch = "Batch";
 /** query_plan. */
 static constexpr const char *kQueryPlan = "QueryPlan";
 /** execute_javascript. */
-static constexpr const char *kExecuteJavascript = "ExecuteJavaScript";
+static constexpr const char *kExecuteJavaScript = "ExecuteJavaScript";
 }  // namespace DbCosmosdbOperationTypeValues
 
 namespace DeploymentStatusValues
