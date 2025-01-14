@@ -98,8 +98,7 @@ compiler like GCC or Clang.
 ### Bazel
 
 First, [install bazel 3.3.0](https://docs.bazel.build/versions/3.3.0/install.html), and for an example
-build using bazel, refer to the tutorial
-[here](https://docs.bazel.build/versions/3.3.0/tutorial/cpp.html).
+build using bazel, refer to the [bazel cpp tutorial](https://docs.bazel.build/versions/3.3.0/tutorial/cpp.html).
 
 Bazel makes use of a `BUILD` file, which gives instructions to bazel on how to
 build the project. The file contains targets that point to a set of source files
