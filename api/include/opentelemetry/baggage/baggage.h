@@ -211,7 +211,7 @@ private:
 
   static bool IsValidValue(nostd::string_view value) { return IsPrintableString(value); }
 
-  // Uri encode key value pairs before injecting into header
+  // URI encode key value pairs before injecting into header
   // Implementation inspired from : https://golang.org/src/net/url/url.go?s=7851:7884#L264
   static std::string UrlEncode(nostd::string_view str)
   {
@@ -243,7 +243,7 @@ private:
     return ret;
   }
 
-  // Uri decode key value pairs after extracting from header
+  // URI decode key value pairs after extracting from header
   static std::string UrlDecode(nostd::string_view str, bool &err)
   {
     auto IsHex = [](char c) {
