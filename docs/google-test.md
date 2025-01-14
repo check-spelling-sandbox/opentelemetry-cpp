@@ -176,8 +176,7 @@ the root of the directory and executing the command:
 You can [download CMake](https://cmake.org/download/) (and install it).
 You will also need to install Google Test, along with libbenchmark.
 
-Download a zip of the Google Test source code
-[here](https://github.com/google/googletest/releases/tag/release-1.10.0). Then,
+Download a [zip of the Google Test source code](https://github.com/google/googletest/releases/tag/release-1.10.0). Then,
 navigate into the source code directory and run the following commands:
 
 ```console
