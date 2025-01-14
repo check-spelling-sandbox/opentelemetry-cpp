@@ -64,8 +64,7 @@ Both these dependencies are listed here:
     Unobtrusive Compression Library.
     - The `http_client` utilizes zlib to compress the message body and send
       it in gzip format.
-    - License: The library is licensed
-      [here](https://www.zlib.net/zlib_license.html)
+    - License: [Zlib license](https://www.zlib.net/zlib_license.html)
 
 - [OTLP/gRPC](/exporters/otlp)
   exporter:
