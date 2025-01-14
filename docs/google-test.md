@@ -189,9 +189,8 @@ make install
 This will install Google Test for you; you can delete the source code after
 running these commands.
 
-Next, follow the instructions
-[here](https://github.com/google/benchmark#installation) to download Google
-Benchmark. The section following this one will detail performance benchmarking
+Next, [install Google Benchmark](https://github.com/google/benchmark#installation).
+The section following this one will detail performance benchmarking
 using Google Benchmark.
 
 CMake makes use of a `CMakeLists.txt` file that provides instructions for a
@@ -282,9 +281,7 @@ the root of the directory and executing the command:
 ### Performance Benchmarking
 
 While Google Test itself does not provide performance benchmarking, Google
-Benchmark, a closely related tool, does. Follow the instructions
-[here](https://github.com/google/benchmark#installation) to download Google
-Benchmark using CMake. A basic usage example can be viewed
+Benchmark, a closely related tool, does. [Install Google Benchmark](https://github.com/google/benchmark#installation). A basic usage example can be viewed
 [here](https://github.com/google/benchmark#usage), while a more in depth usage
 guide can be found [here](https://github.com/google/benchmark#user-guide).
 Generally, it is very similar to the Googletest unit testing structure and we
