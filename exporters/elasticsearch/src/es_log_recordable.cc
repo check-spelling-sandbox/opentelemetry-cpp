@@ -75,7 +75,7 @@ void ElasticSearchRecordable::SetTimestamp(
 {
   const std::chrono::system_clock::time_point timePoint{timestamp};
 
-  // If built with with at least cpp 20 then use std::format
+  // If built with at least cpp 20 then use std::format
   // Otherwise use the old style to format the timestamp in UTC
   // @see https://en.cppreference.com/w/cpp/feature_test#cpp_lib_format
 #if defined(__cpp_lib_format) && __cpp_lib_format >= 201907
