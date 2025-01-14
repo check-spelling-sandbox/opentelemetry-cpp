@@ -325,7 +325,7 @@ std::shared_ptr<opentelemetry::ext::http::client::Session> HttpClient::CreateSes
 
 bool HttpClient::CancelAllSessions() noexcept
 {
-  // CancelSession may change sessions_, we can not change a container while iterating it.
+  // CancelSession may change sessions_, we cannot change a container while iterating it.
   while (true)
   {
     std::unordered_map<uint64_t, std::shared_ptr<Session>> sessions;
@@ -350,7 +350,7 @@ bool HttpClient::CancelAllSessions() noexcept
 
 bool HttpClient::FinishAllSessions() noexcept
 {
-  // FinishSession may change sessions_, we can not change a container while iterating it.
+  // FinishSession may change sessions_, we cannot change a container while iterating it.
   while (true)
   {
     std::unordered_map<uint64_t, std::shared_ptr<Session>> sessions;
@@ -439,7 +439,7 @@ bool HttpClient::MaybeSpawnBackgroundThread()
           CURLMcode mc = curl_multi_perform(self->multi_handle_, &still_running);
 
           // According to https://curl.se/libcurl/c/curl_multi_perform.html, when mc is not OK, we
-          // can not curl_multi_perform it again
+          // cannot curl_multi_perform it again
           if (mc != CURLM_OK)
           {
             self->resetMultiHandle();
@@ -478,7 +478,7 @@ bool HttpClient::MaybeSpawnBackgroundThread()
               // message.
               if (nullptr != session && session->GetOperation())
               {
-                // Session can not be destroyed when calling PerformCurlMessage
+                // Session cannot be destroyed when calling PerformCurlMessage
                 auto hold_session = session->shared_from_this();
                 session->GetOperation()->PerformCurlMessage(result);
               }

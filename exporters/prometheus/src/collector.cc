@@ -36,7 +36,7 @@ std::vector<prometheus_client::MetricFamily> PrometheusCollector::Collect() cons
   {
     OTEL_INTERNAL_LOG_WARN(
         "[Prometheus Exporter] Collect: "
-        "Exporter is shutdown, can not invoke collect operation.");
+        "Exporter is shutdown, cannot invoke collect operation.");
     return {};
   }
   collection_lock_.lock();

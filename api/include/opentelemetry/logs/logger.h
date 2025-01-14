@@ -468,7 +468,7 @@ private:
 
   //
   // minimum_severity_ can be updated concurrently by multiple threads/cores, so race condition on
-  // read/write should be handled. And std::atomic can not be used here because it is not ABI
+  // read/write should be handled. And std::atomic cannot be used here because it is not ABI
   // compatible for OpenTelemetry C++ API.
   //
   mutable uint8_t minimum_severity_{kMaxSeverity};

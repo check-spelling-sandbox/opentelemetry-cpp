@@ -1190,7 +1190,7 @@ CURLcode HttpOperation::Send()
   }
 
   // Perform initial connect, handling the timeout if needed
-  // We can not use CURLOPT_CONNECT_ONLY because it will disable the reuse of connections.
+  // We cannot use CURLOPT_CONNECT_ONLY because it will disable the reuse of connections.
   DispatchEvent(opentelemetry::ext::http::client::SessionState::Connecting);
   is_finished_.store(false, std::memory_order_release);
   is_aborted_.store(false, std::memory_order_release);

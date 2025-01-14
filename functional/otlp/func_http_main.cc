@@ -560,7 +560,7 @@ int expect_unknown_max_tls()
 int expect_export_failed()
 {
   /*
-    Can not test exact root cause:
+    Cannot test exact root cause:
     - connect failed ?
     - send request failed ?
     - exact error message ?

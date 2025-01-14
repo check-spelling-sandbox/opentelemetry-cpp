@@ -50,7 +50,7 @@ LoggerProvider::LoggerProvider(std::unique_ptr<LoggerContext> context) noexcept
 
 LoggerProvider::~LoggerProvider()
 {
-  // Logger hold the shared pointer to the context. So we can not use destructor of LoggerContext to
+  // Logger hold the shared pointer to the context. So we cannot use destructor of LoggerContext to
   // Shutdown and flush all pending recordables when we have more than one loggers. These
   // recordables may use the raw pointer of instrumentation_scope_ in Logger
   if (context_)

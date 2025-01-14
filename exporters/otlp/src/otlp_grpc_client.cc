@@ -251,7 +251,7 @@ static sdk::common::ExportResult InternalDelegateAsyncExport(
                  async_data->session_waker.notify_all();
                });
 
-  // Can not cancel when start the request
+  // Cannot cancel when start the request
   {
     std::unique_lock<std::mutex> lock{async_data->session_waker_lock};
     async_data->session_waker.wait_for(lock, async_data->export_timeout, [async_data]() {

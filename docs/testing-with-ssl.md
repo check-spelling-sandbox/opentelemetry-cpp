@@ -218,7 +218,7 @@ For example:
 shell> /path/to/bin/otelcorecol_linux_amd64 --config /path/to/otel-config-ssl.yaml
 ```
 
-Note, the `example/http/http_example` can not be used (it understands neither SSL
+Note, the `example/http/http_example` cannot be used (it understands neither SSL
 nor OTLP HTTP).
 
 ## Testing SSL on the wire

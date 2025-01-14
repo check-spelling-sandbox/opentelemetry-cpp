@@ -60,7 +60,7 @@ TracerProvider::TracerProvider(std::vector<std::unique_ptr<SpanProcessor>> &&pro
 
 TracerProvider::~TracerProvider()
 {
-  // Tracer hold the shared pointer to the context. So we can not use destructor of TracerContext to
+  // Tracer hold the shared pointer to the context. So we cannot use destructor of TracerContext to
   // Shutdown and flush all pending recordables when we have more than one tracers.These recordables
   // may use the raw pointer of instrumentation_scope_ in Tracer
   if (context_)

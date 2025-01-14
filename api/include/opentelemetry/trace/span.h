@@ -39,7 +39,7 @@ class Tracer;
  * with @ref opentelemetry::trace::Tracer::StartSpan() is preferable.
  *
  * Attributes added or changed with Span::SetAttribute()
- * can not change a sampler decision.
+ * cannot change a sampler decision.
  *
  * Likewise, links can be provided:
  * - at span creation time, using Tracer::StartSpan(),
@@ -49,7 +49,7 @@ class Tracer;
  * with @ref opentelemetry::trace::Tracer::StartSpan() is preferable.
  *
  * Links added with Span::AddLink() or Span::AddLinks()
- * can not change a sampler decision.
+ * cannot change a sampler decision.
  */
 class Span
 {

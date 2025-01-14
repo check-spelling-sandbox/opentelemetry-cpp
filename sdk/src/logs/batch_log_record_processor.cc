@@ -289,7 +289,7 @@ void BatchLogRecordProcessor::GetWaitAdjustedTime(
   }
   else
   {
-    // Some module use zero as indefinite timeout.So we can not reset timeout to zero here
+    // Some module use zero as indefinite timeout.So we cannot reset timeout to zero here
     timeout = std::chrono::microseconds(1);
   }
 }
