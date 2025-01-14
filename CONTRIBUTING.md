@@ -30,8 +30,7 @@ Code is formatted automatically and enforced by CI.
 Note: these instructions apply to examples configured with Bazel, see
 example-specific documentation for other build automation tools.
 
-Install the latest bazel version by following the steps listed
-[here](https://docs.bazel.build/versions/master/install.html).
+Follow the [bazel installation steps](https://docs.bazel.build/versions/master/install.html) to get the latest version.
 
 Select an example of interest from the [examples
 folder](https://github.com/open-telemetry/opentelemetry-cpp/tree/main/examples).
