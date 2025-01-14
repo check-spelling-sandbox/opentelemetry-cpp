@@ -98,7 +98,7 @@ static constexpr const char *kHttpRequestHeader = "http.request.header";
  * the default known method, it is not a list of known methods in addition to the defaults). <p>
  * HTTP method names are case-sensitive and @code http.request.method @endcode attribute value MUST
  * match a known HTTP method name exactly. Instrumentations for specific web frameworks that
- * consider HTTP methods to be case insensitive, SHOULD populate a canonical equivalent. Tracing
+ * consider HTTP methods to be case-insensitive, SHOULD populate a canonical equivalent. Tracing
  * instrumentations that do so, MUST also set @code http.request.method_original @endcode to the
  * original value.
  */

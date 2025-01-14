@@ -2271,7 +2271,7 @@ named OTEL_INSTRUMENTATION_HTTP_KNOWN_METHODS and support a comma-separated list
 known HTTP methods (this list MUST be a full override of the default known method, it is not a list
 of known methods in addition to the defaults).</li><li>HTTP method names are case-sensitive and
 {@code http.request.method} attribute value MUST match a known HTTP method name exactly.
-Instrumentations for specific web frameworks that consider HTTP methods to be case insensitive,
+Instrumentations for specific web frameworks that consider HTTP methods to be case-insensitive,
 SHOULD populate a canonical equivalent. Tracing instrumentations that do so, MUST also set {@code
 http.request.method_original} to the original value.</li> </ul>
  */
