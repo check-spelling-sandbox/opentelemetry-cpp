@@ -91,6 +91,5 @@ should include all the release notes from the Changelog for this release.
 
 ## Post Release
 
-Update the OpenTelemetry.io document
-[here](https://github.com/open-telemetry/opentelemetry.io/tree/main/content/en/docs/instrumentation/cpp)
+Update the [OpenTelemetry.io document](https://github.com/open-telemetry/opentelemetry.io/tree/main/content/en/docs/instrumentation/cpp)
 by sending a Pull Request.
