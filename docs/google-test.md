@@ -355,8 +355,7 @@ Benchmark                        Time             CPU   Iterations
 CreateRecordsAndCollect      51989 ns        51821 ns        12438
 ```
 
-OTel also provides a bazel shortcut to build tests which can be seen
-[here](https://github.com/open-telemetry/opentelemetry-cpp/blob/573696f3fdc1fd85e24ac19860ae6f2345837a3e/bazel/otel_cc_benchmark.bzl).
+OTel also provides a [bazel shortcut to build tests](https://github.com/open-telemetry/opentelemetry-cpp/blob/573696f3fdc1fd85e24ac19860ae6f2345837a3e/bazel/otel_cc_benchmark.bzl).
 This not only creates a benchmark executable, but a “smoketest” which runs each
 benchmark for one iteration.
 
