@@ -103,9 +103,8 @@ vendor's implementation by using it as a plugin.
 
 For example, a C++ database server might add support for the OpenTelemetry API
 and exposes configuration options that let a user point to a vendor's plugin and
-load it with a JSON config. (With OpenTracing, Ceph explored a deployment
-scenario similar to this. See this
-[link](https://www.spinics.net/lists/ceph-devel/msg41007.html))
+load it with a JSON config. (With [OpenTracing, Ceph explored a deployment
+similer scenario](https://www.spinics.net/lists/ceph-devel/msg41007.html).)
 
 ### Non OpenTelemetry aware application with OpenTelemetry capability library
 
