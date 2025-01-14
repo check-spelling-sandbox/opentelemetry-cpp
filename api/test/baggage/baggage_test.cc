@@ -197,7 +197,7 @@ TEST(BaggageTest, BaggageRemove)
   auto new_baggage = baggage->Delete("key0");
   EXPECT_FALSE(new_baggage->GetValue("key0", value));
 
-  // trying Delete on non existent key
+  // trying Delete on nonexistent key
   EXPECT_FALSE(baggage->GetValue("key181", value));
   auto new_baggage_2 = baggage->Delete("key181");
   EXPECT_FALSE(new_baggage_2->GetValue("key181", value));
