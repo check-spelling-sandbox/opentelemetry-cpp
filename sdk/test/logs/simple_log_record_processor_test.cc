@@ -233,7 +233,7 @@ public:
   bool Shutdown(std::chrono::microseconds /* timeout */) noexcept override { return false; }
 };
 
-// Tests for when when processor should fail to shutdown
+// Tests for when processor should fail to shutdown
 TEST(SimpleLogRecordProcessorTest, ShutDownFail)
 {
   std::unique_ptr<FailShutDownForceFlushExporter> exporter(new FailShutDownForceFlushExporter());
@@ -243,7 +243,7 @@ TEST(SimpleLogRecordProcessorTest, ShutDownFail)
   EXPECT_EQ(false, processor.Shutdown());
 }
 
-// Tests for when when processor should fail to force flush
+// Tests for when processor should fail to force flush
 TEST(SimpleLogRecordProcessorTest, ForceFlushFail)
 {
   std::unique_ptr<FailShutDownForceFlushExporter> exporter(new FailShutDownForceFlushExporter());
