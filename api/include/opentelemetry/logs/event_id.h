@@ -14,7 +14,7 @@ namespace logs
 {
 
 /**
- * EventId class which acts the Id of the event with an optional name.
+ * EventId class which acts the ID of the event with an optional name.
  */
 class EventId
 {

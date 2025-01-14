@@ -85,15 +85,15 @@ public:
   const opentelemetry::common::AttributeValue &GetBody() const noexcept override;
 
   /**
-   * Set the Event Id object
-   * @param id  the event Id to set
+   * Set the Event ID object
+   * @param id  the event ID to set
    * @param name the event name to set
    */
   void SetEventId(int64_t id, nostd::string_view name) noexcept override;
 
   /**
-   * Get event Id of this log.
-   * @return the event Id of this log.
+   * Get event ID of this log.
+   * @return the event ID of this log.
    */
   int64_t GetEventId() const noexcept override;
 
@@ -104,26 +104,26 @@ public:
   nostd::string_view GetEventName() const noexcept override;
 
   /**
-   * Set the trace id for this log.
-   * @param trace_id the trace id to set
+   * Set the trace ID for this log.
+   * @param trace_id the trace ID to set
    */
   void SetTraceId(const opentelemetry::trace::TraceId &trace_id) noexcept override;
 
   /**
-   * Get the trace id of this log.
-   * @return the trace id of this log
+   * Get the trace ID of this log.
+   * @return the trace ID of this log
    */
   const opentelemetry::trace::TraceId &GetTraceId() const noexcept override;
 
   /**
-   * Set the span id for this log.
-   * @param span_id the span id to set
+   * Set the span ID for this log.
+   * @param span_id the span ID to set
    */
   void SetSpanId(const opentelemetry::trace::SpanId &span_id) noexcept override;
 
   /**
-   * Get the span id of this log.
-   * @return the span id of this log
+   * Get the span ID of this log.
+   * @return the span ID of this log
    */
   const opentelemetry::trace::SpanId &GetSpanId() const noexcept override;
 

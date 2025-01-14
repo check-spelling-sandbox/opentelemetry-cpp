@@ -70,7 +70,7 @@ public:
   void SetBody(const opentelemetry::common::AttributeValue &message) noexcept override;
 
   /**
-   * Set the Event Id
+   * Set the Event ID
    * @param id the event id to set
    * @param name the event name to set
    */

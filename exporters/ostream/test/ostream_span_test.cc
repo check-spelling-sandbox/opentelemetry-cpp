@@ -305,7 +305,7 @@ TEST(OStreamSpanExporter, PrintSpanWithLinks)
 
   auto recordable = processor->MakeRecordable();
 
-  // produce valid SpanContext with pseudo span and trace Id.
+  // produce valid SpanContext with pseudo span and trace ID.
   uint8_t span_id_buf[trace::SpanId::kSize] = {
       1,
   };

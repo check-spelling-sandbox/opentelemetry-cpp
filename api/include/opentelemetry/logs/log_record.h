@@ -63,7 +63,7 @@ public:
                             const common::AttributeValue &value) noexcept = 0;
 
   /**
-   * Set the Event Id.
+   * Set the Event ID.
    * @param id The event id to set
    * @param name Optional event name to set
    */

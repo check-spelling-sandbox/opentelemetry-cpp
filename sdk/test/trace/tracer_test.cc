@@ -107,7 +107,7 @@ public:
 };
 
 /**
- * A Mock Custom Id Generator
+ * A Mock Custom ID Generator
  */
 class MockIdGenerator : public IdGenerator
 {

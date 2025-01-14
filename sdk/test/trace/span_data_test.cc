@@ -128,7 +128,7 @@ TEST(SpanData, Links)
   std::map<std::string, int64_t> attributes = {
       {keys[0], values[0]}, {keys[1], values[1]}, {keys[2], values[2]}};
 
-  // produce valid SpanContext with pseudo span and trace Id.
+  // produce valid SpanContext with pseudo span and trace ID.
   uint8_t span_id_buf[trace_api::SpanId::kSize] = {
       1,
   };

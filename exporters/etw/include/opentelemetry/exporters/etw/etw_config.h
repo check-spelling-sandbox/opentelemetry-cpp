@@ -183,7 +183,7 @@ TailSampler &GetTailSampler(T &t)
 /**
  * @brief Utility template to convert SpanId or TraceId to hex.
  * @param id - value of SpanId or TraceId
- * @return Hexadecimal representation of Id as string.
+ * @return Hexadecimal representation of ID as string.
  */
 template <class T>
 static inline std::string ToLowerBase16(const T &id)
@@ -195,7 +195,7 @@ static inline std::string ToLowerBase16(const T &id)
 
 /**
  * @brief Utility method to convert span_id (8 byte) to ActivityId GUID (16 bytes)
- * @param span OpenTelemetry Span Id object
+ * @param span OpenTelemetry Span ID object
  * @return GUID struct containing 8-bytes of SpanId + 8 NUL bytes.
  */
 static inline bool CopySpanIdToActivityId(const opentelemetry::trace::SpanId &span_id,

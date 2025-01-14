@@ -429,7 +429,7 @@ public:
   }
 
   /// <summary>
-  /// Send event to Provider Id
+  /// Send event to Provider ID
   /// </summary>
   /// <param name="providerId"></param>
   /// <param name="eventData"></param>

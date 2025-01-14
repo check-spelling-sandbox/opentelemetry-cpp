@@ -24,7 +24,7 @@ std::string getTemporaryValue()
 }
 
 /**
- * A Mock Custom Id Generator
+ * A Mock Custom ID Generator
  */
 class MockIdGenerator : public sdk::trace::IdGenerator
 {

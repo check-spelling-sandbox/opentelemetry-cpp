@@ -79,7 +79,7 @@ public:
   /** Returns the configured span processor. */
   SpanProcessor &GetProcessor() noexcept { return context_->GetProcessor(); }
 
-  /** Returns the configured Id generator */
+  /** Returns the configured ID generator */
   IdGenerator &GetIdGenerator() const noexcept { return context_->GetIdGenerator(); }
 
   /** Returns the associated instrumentation scope */

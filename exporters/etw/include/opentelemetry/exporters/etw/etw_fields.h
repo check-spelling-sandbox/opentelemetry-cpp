@@ -52,8 +52,8 @@
    EventMessage                 - ETW Event Message string for unstructured events
    ActivityId                   - ActivityId for EventSource parenting (current event)
    RelatedActivityId            - RelatedActivityId for EventSource parenting (parent event)
-   Pid                          - Process Id
-   Tid                          - Thread Id
+   Pid                          - Process ID
+   Tid                          - Thread ID
 
   Example "Span" as shown in Visual Studio "Diagnostic Events" view. EventName="Span":
 
@@ -107,8 +107,8 @@
 #  define ETW_FIELD_TIME            "_time"              	/* Event time              */
 #  define ETW_FIELD_OPCODE          "OpCode"            	/* OpCode for TraceLogging */
 
-#  define ETW_FIELD_TRACE_ID        "TraceId"        		/* Trace Id                */
-#  define ETW_FIELD_SPAN_ID         "SpanId"         		/* Span Id                 */
+#  define ETW_FIELD_TRACE_ID        "TraceId"        		/* Trace ID                */
+#  define ETW_FIELD_SPAN_ID         "SpanId"         		/* Span ID                 */
 #  define ETW_FIELD_SPAN_PARENTID   "ParentId"              /* Span ParentId           */
 #  define ETW_FIELD_SPAN_KIND       "Kind"                  /* Span Kind               */
 #  define ETW_FIELD_SPAN_LINKS      "Links"                 /* Span Links array        */

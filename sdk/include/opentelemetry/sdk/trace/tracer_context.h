@@ -78,7 +78,7 @@ public:
   const opentelemetry::sdk::resource::Resource &GetResource() const noexcept;
 
   /**
-   * Obtain the Id Generator associated with this tracer context.
+   * Obtain the ID Generator associated with this tracer context.
    * @return The ID Generator for this tracer context.
    */
   opentelemetry::sdk::trace::IdGenerator &GetIdGenerator() const noexcept;

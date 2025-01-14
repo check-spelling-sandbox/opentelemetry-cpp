@@ -111,10 +111,10 @@ namespace tld
       ByteArrayWrapper type allows you to use your own allocation strategy for
       the buffer.
     - By default, TraceLogging events have Id=0 and Version=0, indicating
-      that the event does not have an assigned Id. However, events can have
-      Id and Version assigned (typically assigned manually). If you don't want
+      that the event does not have an assigned ID. However, events can have
+      ID and Version assigned (typically assigned manually). If you don't want
       to manage event IDs, set both Id and Version to 0. If you do assign
-      IDs to your events, the Id must be non-zero and there should be a
+      IDs to your events, the ID must be non-zero and there should be a
       one-to-one mapping between {provider.Id + event.Id + event.Version} and
       {event metadata}. In other words, any event with a given non-zero
       Id+Version combination must always have exactly the same event metadata.

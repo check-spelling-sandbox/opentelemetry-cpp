@@ -13,7 +13,7 @@ namespace sdk
 namespace trace
 {
 
-/** IdGenerator provides an interface for generating Trace Id and Span Id */
+/** IdGenerator provides an interface for generating Trace ID and Span ID */
 class IdGenerator
 {
 public:
