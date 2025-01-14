@@ -280,8 +280,7 @@ the root of the directory and executing the command:
 ### Performance Benchmarking
 
 While Google Test itself does not provide performance benchmarking, Google
-Benchmark, a closely related tool, does. [Install Google Benchmark](https://github.com/google/benchmark#installation). A basic usage example can be viewed
-[here](https://github.com/google/benchmark#usage), while a more in depth usage
+Benchmark, a closely related tool, does. [Install Google Benchmark](https://github.com/google/benchmark#installation). See a [basic benchmark usage example](https://github.com/google/benchmark#usage), while a more in depth usage
 guide can be found [here](https://github.com/google/benchmark#user-guide).
 Generally, it is very similar to the Googletest unit testing structure and we
 can easily convert unit tests into benchmarked routines.
