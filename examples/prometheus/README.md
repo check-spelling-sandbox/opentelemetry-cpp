@@ -152,8 +152,7 @@ Then, click on the Explore icon on the left panel of
 the website - we should be able to write some queries to explore our metrics
 now!
 
-Feel free to find some handy PromQL
-[here](https://promlabs.com/promql-cheat-sheet/).
+See the [PromQL cheat sheet](https://promlabs.com/promql-cheat-sheet/).
 
 ![Grafana
 UI](https://user-images.githubusercontent.com/9139451/224983906-52e061b8-b561-4414-87e9-68823bbc3ad6.png)
