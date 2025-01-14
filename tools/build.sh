@@ -141,7 +141,7 @@ function install_tools {
   case "$OS_NAME" in
     *Darwin*)
       export APPLE=1
-      # Set target MacOS minver
+      # Set target macOS minver
       export MACOSX_DEPLOYMENT_TARGET=10.10
       install_mac_tools ;;
 

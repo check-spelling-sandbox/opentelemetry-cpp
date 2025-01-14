@@ -718,7 +718,7 @@ jobs:
       run: ./ci/do_ci.sh bazel.tsan
 
   bazel_osx:
-    name: Bazel on MacOS
+    name: Bazel on macOS
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v4

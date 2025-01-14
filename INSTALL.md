@@ -272,7 +272,7 @@ configuration. The packages generated through this mayn't be production ready,
 and user may have to customize it further before using it as distribution.
 
 - Linux : deb, rpm, tgz
-- MacOS : tgz
+- macOS : tgz
 - Windows : NuGet, zip
 
 This requires platform specific package generators already installed. The package
