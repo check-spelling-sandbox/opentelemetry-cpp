@@ -28,9 +28,9 @@ namespace device
  * href="https://developer.apple.com/documentation/uikit/uidevice/1620059-identifierforvendor">vendor
  * identifier</a>. On Android (Java or Kotlin), this value MUST be equal to the Firebase
  * Installation ID or a globally unique UUID which is persisted across sessions in your application.
- * More information can be found <a
- * href="https://developer.android.com/training/articles/user-data-ids">here</a> on best practices
- * and exact implementation details. Caution should be taken when storing personal data or anything
+ * See <a
+ * href="https://developer.android.com/training/articles/user-data-ids">Best
+ * practices for unique identifiers</a>. Caution should be taken when storing personal data or anything
  * which can identify a user. GDPR and data protection laws may apply, ensure you do your own due
  * diligence.
  */
