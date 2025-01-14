@@ -20,7 +20,7 @@ git describe --tags
 
 3. Push selected package to nuget feed.
 
-Learn more about native code NuGet packages [here](https://docs.microsoft.com/en-us/nuget/guides/native-packages).
+Learn more about [native code NuGet packages](https://docs.microsoft.com/en-us/nuget/guides/native-packages).
 
 ## Proposed NuGet package flavors
 
