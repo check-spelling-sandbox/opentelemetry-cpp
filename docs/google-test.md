@@ -97,8 +97,7 @@ compiler like GCC or Clang.
 
 ### Bazel
 
-First, to install bazel, refer to the instructions
-[here](https://docs.bazel.build/versions/3.3.0/install.html), and for an example
+First, [install bazel 3.3.0](https://docs.bazel.build/versions/3.3.0/install.html), and for an example
 build using bazel, refer to the tutorial
 [here](https://docs.bazel.build/versions/3.3.0/tutorial/cpp.html).
 
