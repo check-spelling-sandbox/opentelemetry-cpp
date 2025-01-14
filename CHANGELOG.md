@@ -1356,7 +1356,7 @@ Deprecations:
   [#2011](https://github.com/open-telemetry/opentelemetry-cpp/pull/2011)
 * [BUILD] Fix typo in CMakeLists.txt
   [#2010](https://github.com/open-telemetry/opentelemetry-cpp/pull/2010)
-* [EXPORTER] fix Prometheus test iterator iterator increment
+* [EXPORTER] fix Prometheus test iterator increment
   [#2006](https://github.com/open-telemetry/opentelemetry-cpp/pull/2006)
 * [SDK]Add attributes for InstrumentationScope
   [#2004](https://github.com/open-telemetry/opentelemetry-cpp/pull/2004)
